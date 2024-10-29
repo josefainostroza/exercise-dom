@@ -1,0 +1,5 @@
+const titleElement = document.getElementById('start-point');
+
+console.log(
+  `Soy un ${titleElement.tagName} con el ${titleElement.id} y la clase ${titleElement.classList} mi hermano mediano es un ${titleElement.parentElement.tagName} con id ${titleElement.parentElement.id} y clase ${titleElement.parentElement.classList}, mi hermano mediano es un ${titleElement.previousElementSibling.tagName} con el id ${titleElement.previousElementSibling.id} y las clases ${titleElement.previousElementSibling.classList[0]} y ${titleElement.previousElementSibling.classList[1]} tiene el texto ${titleElement.previousElementSibling.textContent}. Mi hermano mayor es un ${titleElement.previousElementSibling.previousElementSibling.tagName} con el id ${titleElement.previousElementSibling.previousElementSibling.id} y las clases ${titleElement.previousElementSibling.previousElementSibling.classList[0]} y ${titleElement.previousElementSibling.previousElementSibling.classList[1]} tiene el texto ${titleElement.previousElementSibling.previousElementSibling.textContent}`
+);
